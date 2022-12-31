@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fylo data storage component</title>
+    <!-- Fav Icon -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="brand">
+        <img src="images/logo.svg" alt="Fylo logo" class="logo" />
+        <div class="icons">
+          <img
+            class="icon"
+            src="images/icon-document.svg"
+            alt="document icon"
+          />
+          <img class="icon" src="images/icon-folder.svg" alt="folder icon" />
+          <img class="icon" src="images/icon-upload.svg" alt="upload icon" />
+        </div>
+      </div>
+      <div class="usage">
+        <div class="storage-left">
+          <p class="storage-left-text">
+            185 <span class="gb-left">GB left</span>
+          </p>
+        </div>
+        <p class="usage-text">
+          You've used <span class="usage-value">815GB</span> of your storage
+        </p>
+        <div aria-label="usage meter" class="usage-meter">
+          <div class="usage-meter-visual"></div>
+          <div class="usage-meter-text">
+            <p class="initial-meter">0</p>
+            <p class="end-meter">1000GB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
